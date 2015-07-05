@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.project.datapotal"
+    android:versionCode="4"
+    android:versionName="1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/main_logo"
+        android:label="@string/app_name"
+        android:debuggable="false"
+        android:largeHeap="true"
+        android:theme="@style/Theme.Datapotalproject" 
+        android:screenOrientation="portrait"
+        >
+        
+        <activity
+            android:name="info.project.datapotal.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar"
+             >
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value="info.project.datapotal.viewpager.sign.SearchResultsActivity" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- Search results activity -->
+        <activity android:name="info.project.datapotal.viewpager.sign.SearchResultsActivity"
+            android:parentActivityName="info.project.datapotal.viewpager.ViewPagerActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+ 
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name="info.project.datapotal.MenuActivity" >
+        </activity>
+        <activity android:name="info.project.datapotal.viewpager.product.adapter.Parsed_ListAdapter" >
+        </activity>
+        <activity android:name="info.project.datapotal.viewpager.ViewPagerActivity" >
+        </activity>
+        <activity android:name="info.project.datapotal.viewpager.product.adapter.DB_List_Products_Main_Activity" >
+        </activity>
+        <activity android:name="info.project.datapotal.viewpager.product.adapter.DB_List_Products_Adapter" >
+        </activity>
+        <activity android:name="info.project.datapotal.viewpager.product.adapter.DB_List_Products_Final_Activity" >
+        </activity>
+        <activity android:name="info.project.datapotal.viewpager.product.adapter.DB_List_Nation_Adapter" >
+        </activity>
+        <activity android:name="info.project.datapotal.viewpager.product.adapter.DB_List_Nation_Main_Activity" >
+        </activity>
+        <activity android:name="info.project.datapotal.viewpager.product.adapter.DB_List_Nation_Final_Activity" >
+        </activity>
+        <activity android:name="info.project.datapotal.viewpager.product.adapter.DB_List_Search_Main_Activity" >
+        </activity>
+        <activity android:name="info.project.datapotal.viewpager.product.adapter.DB_List_Search_Final_Activity" >
+        </activity>
+        <activity android:name="info.project.datapotal.viewpager.sign.SignIntentActivity"></activity>
+        <activity android:name=".viewpager.product.adapter.Last_RecallActivity"></activity>
+        <activity android:name="info.project.datapotal.viewpager.help.CircleViewFlowExample"></activity>
+        <activity android:name="info.project.datapotal.viewpager.help.HelpMenu"></activity>
+        <activity android:name="info.project.datapotal.WebViewActivity"></activity>
+        
+    </application>
+
+</manifest>

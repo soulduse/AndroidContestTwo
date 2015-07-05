@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item android:id="@+id/addItem"
+            android:title="즐겨찾기 추가"
+            android:showAsAction="always"
+            android:icon="@android:drawable/ic_input_add"/>
+    </menu>

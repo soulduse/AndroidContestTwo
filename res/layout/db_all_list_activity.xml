@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+    
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal">
+    
+    <TextView
+        android:id="@+id/sb_makingCompanylabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#FF033E"
+        android:text="@string/sb_makingCompanylabel"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/sb_makingCompany"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"/>
+    
+    </LinearLayout>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#BDBDBD" />
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+     <TextView
+        android:id="@+id/sb_makingCountrylabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF033E"
+        android:textStyle="bold"
+        android:text="@string/sb_makingCountrylabel"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/sb_makingCountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+    
+     </LinearLayout>
+     
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#BDBDBD" />
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/sp_brandlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#FF033E"
+        android:text="@string/sp_brandlabel"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/sp_brand"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"/>
+
+    </LinearLayout>
+    
+    
+     <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#BDBDBD" />
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/sp_goodslabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF033E"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="@string/sp_goodslabel" />
+ 
+    <TextView
+        android:id="@+id/sp_goods"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+
+     </LinearLayout>
+     <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#BDBDBD" />
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+    
+    <TextView
+        android:id="@+id/sp_model_strlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF033E"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="@string/sp_model_strlabel" />
+
+    <TextView
+        android:id="@+id/sp_model_str"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+    
+     </LinearLayout>
+     <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#BDBDBD" />
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+        
+    <TextView
+        android:id="@+id/totalcodeNamelabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF033E"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="@string/totalcodeNamelabel" />
+
+    <TextView
+        android:id="@+id/totalcodeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+    
+     </LinearLayout>
+     <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#BDBDBD" />
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/sc_confirmNumlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF033E"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="@string/sc_confirmNumlabel" />
+
+    <TextView
+        android:id="@+id/sc_confirmNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+
+     </LinearLayout>
+     <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#BDBDBD" />
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+    
+    <TextView
+        android:id="@+id/sc_confirmDaylabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF033E"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="@string/sc_confirmDaylabel" />
+
+    <TextView
+        android:id="@+id/sc_confirmDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+    
+     </LinearLayout>
+     <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#BDBDBD" />
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+    
+     <TextView
+        android:id="@+id/sc_divisionlabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF033E"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="@string/sc_divisionlabel" />
+
+    <TextView
+        android:id="@+id/sc_division"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp" />
+    
+    </LinearLayout>
+
+</LinearLayout>

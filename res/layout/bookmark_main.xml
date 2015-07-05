@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/bookmark_main_img1"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/asia_korea" />
+
+            <ImageView
+                android:id="@+id/bookmark_main_img2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/africa_lesotho" />
+
+            <ImageView
+                android:id="@+id/bookmark_main_img3"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/africa_lesotho" />
+
+            <ImageView
+                android:id="@+id/bookmark_main_img5"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/africa_lesotho" />
+
+            <ImageView
+                android:id="@+id/bookmark_main_img4"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/africa_lesotho" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

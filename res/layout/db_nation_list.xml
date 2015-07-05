@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#EAEAEA"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/db_nation_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="#FFFFFF"
+        android:divider="#EAEAEA"
+        android:dividerHeight="8dp" >
+    </ListView>
+
+</LinearLayout>
